@@ -11,7 +11,7 @@ const App = () => {
         </div>
           <div className='status'><i class="fa-solid fa-briefcase"></i> <span>M.Sc Chemistry</span></div>
           <div className='location'><i class="fa-solid fa-house"></i> <span>Tura, Meghalaya</span></div>
-          <div className='email'><i class="fa-solid fa-envelope"></i> <span>saljgringmarak569vlog@gmail.com</span></div>
+          <div className='email'><i class="fa-solid fa-envelope"></i> <span>saljagringmarak569vlog@gmail.com</span></div>
           <div className='phone'><i class="fa-solid fa-phone"></i> <span>8011918952</span></div>
 
           <div className='skills'>
