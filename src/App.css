@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+}
+
+.about-me{
+  margin: 10px;
+  grid-area: about-me;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile{
+  background-image: url("/src/assets/AMPTE2.jpeg");
+  height: auto;
+  background-size: cover;
+}
+
+.name{
+  padding: 10px;
+  padding-top: 150px;
+  color: whitesmoke;
+}
+
+.status{
+  padding: 10px;
+}
+
+.location{
+  padding: 10px;
+}
+
+.email{
+  padding: 10px;
+}
+
+.phone{
+  padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+i{
+  color: rgb(66, 189, 226);
+  margin-right: 10px;
+}
+
+span{
+  margin-left: 10px;
+}
+
+.skills{
+  padding: 10px;
+  font-size: large;
+}
+
+.tech-skills, .soft-skills{
+  font-size: large;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+li{
+  font-size: medium;
+}
+
+.projects{
+  margin: 10px;
+  grid-area: projects;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading{
+  font-size: x-large;
+}
+
+.project-name{
+  font-size: large;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.education{
+  padding: 10px;
+  margin: 10px;
+  grid-area: education;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.college{
+  background-color: rgb(211, 243, 243);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.school{
+  background-color: rgb(196, 220, 241);
+}
+
+.institution{
+  font-size: large;
+  padding: 10px;
+}
+
+.duration{
+  padding: 10px;
+}
+
+.description{
+  padding: 10px;
+}
+
+
+.footer{
+  background-color: rgb(9, 199, 104);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+button{
+  background-color:  rgb(9, 199, 104);
+  color: white;
+  border: none;
+}
+
+@media(min-width: 800px){
+
+  .cv{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "about-me education education"
+    "about-me projects projects";
+  }
+
+  .skills{
+    font-size: x-large;
+  }
+
+  p{
+    font-size: large;
+  }
+
+  .institution{
+    font-size: x-large;
+  }
+
+  .heading{
+    font-size: xx-large;
+  }
+
+}
