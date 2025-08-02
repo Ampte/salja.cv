@@ -7,12 +7,12 @@ const App = () => {
     <div className='cv'>
       <div className='about-me'>
         <div className='profile'>
-          <h1 className='name'>Ampte B Marak</h1>
+          <h1 className='name'>Saljagring B Marak</h1>
         </div>
-          <div className='status'><i class="fa-solid fa-briefcase"></i> <span>Student / Web Developer</span></div>
+          <div className='status'><i class="fa-solid fa-briefcase"></i> <span>M.Sc Chemistry</span></div>
           <div className='location'><i class="fa-solid fa-house"></i> <span>Tura, Meghalaya</span></div>
-          <div className='email'><i class="fa-solid fa-envelope"></i> <span>amptebmarak@gmail.com</span></div>
-          <div className='phone'><i class="fa-solid fa-phone"></i> <span>8798594061</span></div>
+          <div className='email'><i class="fa-solid fa-envelope"></i> <span>saljgringmarak569vlog@gmail.com</span></div>
+          <div className='phone'><i class="fa-solid fa-phone"></i> <span>8011918952</span></div>
 
           <div className='skills'>
             Skills
@@ -40,13 +40,13 @@ const App = () => {
       <div className='education'>
         <p className='heading'>Education</p>
         <div className='college'>
-          <p className='institution'>Tura Government College, Tura</p>
+          <p className='institution'>Nagaland University</p>
           <p className='duration'><i class="fa-solid fa-calendar-days"></i> <span>2023 - 2026</span></p>
-          <p className='description'>Bachelor of Science in Physics (Pursuing)</p>
+          <p className='description'>Master of Science in Physics (Pursuing)</p>
         </div>
         <div className='school'>
-          <p className='institution'>Tura Government Higher Secondary School, Tura</p>
-          <p className='duration'><i class="fa-solid fa-calendar-days"></i> <span>2021 - 2023</span></p>
+          <p className='institution'>Tura Government College, Tura</p>
+          <p className='duration'><i class="fa-solid fa-calendar-days"></i> <span>2022 - 2025</span></p>
           <p className='description'>Completed</p>
         </div>
       </div>
@@ -59,12 +59,7 @@ const App = () => {
       </div>
     </div>
     <div className='footer'>
-      <p> Find me on social media</p>
-      <button><i class="fa-brands fa-instagram" style={{color: 'white', fontSize:'large', margin: '10px'}}></i></button>
-      <button><i class="fa-brands fa-x-twitter"style={{color: 'white', fontSize:'large',margin: '10px'}}></i></button>
-      <button><i class="fa-brands fa-linkedin"style={{color: 'white', fontSize:'large', margin: '10px'}}></i></button>
-      <button><i class="fa-brands fa-facebook"style={{color: 'white', fontSize:'large', margin: '10px'}}></i></button>
-      <p>&copy; Ampte B Marak's CV.</p>
+      <p>&copy; Saljagring B Marak's CV.</p>
     </div>
     </>
   );
